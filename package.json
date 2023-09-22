@@ -1,6 +1,6 @@
 {
   "name": "parqet-rust",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "cool things much faster than before",
   "main": "index.js",
   "repository": "git@github.com:napi-rs/package-template.git",
