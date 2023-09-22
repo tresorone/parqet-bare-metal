@@ -1,5 +1,5 @@
 {
-  "name": "@napi-rs/package-template-darwin-arm64",
+  "name": "parqet-rust-darwin-arm64",
   "version": "1.0.0",
   "os": [
     "darwin"
@@ -7,11 +7,11 @@
   "cpu": [
     "arm64"
   ],
-  "main": "package-template.darwin-arm64.node",
+  "main": "parqet-rust.darwin-arm64.node",
   "files": [
-    "package-template.darwin-arm64.node"
+    "parqet-rust.darwin-arm64.node"
   ],
-  "description": "Template project for writing node package with napi-rs",
+  "description": "cool things much faster than before",
   "keywords": [
     "napi-rs",
     "NAPI",

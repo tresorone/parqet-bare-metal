@@ -1,7 +1,7 @@
 {
-  "name": "@napi-rs/package-template",
+  "name": "parqet-rust",
   "version": "1.0.0",
-  "description": "Template project for writing node package with napi-rs",
+  "description": "cool things much faster than before",
   "main": "index.js",
   "repository": "git@github.com:napi-rs/package-template.git",
   "license": "MIT",
@@ -18,7 +18,7 @@
     "index.js"
   ],
   "napi": {
-    "name": "package-template",
+    "name": "parqet-rust",
     "triples": {
       "defaults": true,
       "additional": [
