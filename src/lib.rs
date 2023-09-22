@@ -1,8 +1,5 @@
 #![deny(clippy::all)]
 
-use napi_derive::napi;
+pub mod get_xirr;
+pub use get_xirr::get_xirr;
 
-#[napi]
-pub fn plus_100(input: u32) -> u32 {
-  input + 100
-}
