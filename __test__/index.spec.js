@@ -1,6 +1,6 @@
-import test from 'ava';
+const test = require('ava');
 
-import { getXirr } from '../index';
+const { getXirr } = require('../index');
 
 test('xirr', t => {
   const today = new Date();
