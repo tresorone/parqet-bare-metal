@@ -11,7 +11,7 @@
   "files": [
     "parqet-rust.linux-x64-musl.node"
   ],
-  "description": "cool things much faster than before",
+  "description": "Expensive functions used in the parqet backend, outsourced to Rust",
   "keywords": [
     "napi-rs",
     "NAPI",
@@ -28,7 +28,7 @@
     "registry": "https://registry.npmjs.org/",
     "access": "public"
   },
-  "repository": "git@github.com:napi-rs/package-template.git",
+  "repository": "https://github.com/tresorone/parqet-rust",
   "libc": [
     "musl"
   ]

@@ -1,9 +1,9 @@
 {
   "name": "parqet-rust",
   "version": "2.0.0",
-  "description": "cool things much faster than before",
+  "description": "Expensive functions used in the parqet backend, outsourced to Rust",
   "main": "index.js",
-  "repository": "git@github.com:napi-rs/package-template.git",
+  "repository": "https://github.com/tresorone/parqet-rust",
   "license": "MIT",
   "keywords": [
     "napi-rs",
