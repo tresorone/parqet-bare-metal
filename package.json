@@ -35,5 +35,7 @@
     "universal": "napi universal",
     "version": "napi version"
   },
-  "packageManager": "yarn@3.6.3"
+  "packageManager": "yarn@3.6.3",
+  "repository": "https://github.com/tresorone/parqet-rust",
+  "description": "cool fns that are way faster than js"
 }
