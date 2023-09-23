@@ -1,0 +1,15 @@
+{
+  "name": "parqet-rust-darwin-universal",
+  "version": "0.0.0",
+  "os": [
+    "darwin"
+  ],
+  "main": "parqet-rust.darwin-universal.node",
+  "files": [
+    "parqet-rust.darwin-universal.node"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">= 10"
+  }
+}
