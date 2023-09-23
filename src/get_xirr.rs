@@ -37,9 +37,10 @@ pub fn get_xirr(amounts: Vec<f64>, timestamps: Vec<i64>) -> f64 {
     .enumerate()
     .map(|(idx, datetime)| {
       if idx == 0 {
-        return 0.0;
+        0.0
+      } else {
+        diff_in_years_f64(interval_start, datetime)
       }
-      return diff_in_years_f64(interval_start, datetime);
     })
     .collect();
 
@@ -70,14 +71,14 @@ pub fn get_xirr(amounts: Vec<f64>, timestamps: Vec<i64>) -> f64 {
     }
 
     npv = sum;
-    rate = rate - npv / sum_fdx;
+    rate -= npv / sum_fdx;
     iterations += 1;
   }
 
   if iterations >= MAX_ITERATIONS {
-    return 0.0;
+    0.0
   } else {
-    return rate * 100.0;
+    rate * 100.0
   }
 }
 
@@ -85,24 +86,24 @@ fn get_return(gain: f64, base: f64) -> f64 {
   let denominator = base.abs();
 
   if denominator == 0.0 {
-    return 0.0;
+    0.0
   } else {
-    return (gain / base) * 100.0;
+    (gain / base) * 100.0
   }
 }
 
 fn is_same_day(d1: &DateTime<Utc>, d2: &DateTime<Utc>) -> bool {
-  return d1.ordinal() == d2.ordinal() && d1.year() == d2.year();
+  d1.ordinal() == d2.ordinal() && d1.year() == d2.year()
 }
 
 fn diff_in_years(previous_date: &DateTime<Utc>, later_date: &DateTime<Utc>) -> Option<u32> {
-  return later_date.years_since(*previous_date);
+  later_date.years_since(*previous_date)
 }
 
 fn diff_in_years_f64(previous_date: &DateTime<Utc>, later_date: &DateTime<Utc>) -> f64 {
   let diff_in_days = (*later_date - previous_date).num_days() as f64;
 
-  return diff_in_days / 365.25;
+  diff_in_days / 365.25
 }
 
 fn is_close_to_zero(npv: f64) -> bool {
