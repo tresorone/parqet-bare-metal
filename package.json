@@ -107,23 +107,5 @@
     "singleQuote": true,
     "arrowParens": "always"
   },
-  "packageManager": "yarn@3.6.3",
-  "dependencies": {
-    "@napi-rs/package-template": "^1.0.0"
-  },
-  "optionalDependencies": {
-    "parqet-rust-win32-x64-msvc": "1.0.0",
-    "parqet-rust-darwin-x64": "1.0.0",
-    "parqet-rust-linux-x64-gnu": "1.0.0",
-    "parqet-rust-linux-x64-musl": "1.0.0",
-    "parqet-rust-linux-arm64-gnu": "1.0.0",
-    "parqet-rust-win32-ia32-msvc": "1.0.0",
-    "parqet-rust-linux-arm-gnueabihf": "1.0.0",
-    "parqet-rust-darwin-arm64": "1.0.0",
-    "parqet-rust-android-arm64": "1.0.0",
-    "parqet-rust-freebsd-x64": "1.0.0",
-    "parqet-rust-linux-arm64-musl": "1.0.0",
-    "parqet-rust-win32-arm64-msvc": "1.0.0",
-    "parqet-rust-android-arm-eabi": "1.0.0"
-  }
+  "packageManager": "yarn@3.6.3"
 }
