@@ -1,17 +1,17 @@
 {
-  "name": "parqet-rust-darwin-universal",
+  "name": "parqet-bare-metal-darwin-universal",
   "version": "0.0.2",
   "os": [
     "darwin"
   ],
-  "main": "parqet-rust.darwin-universal.node",
+  "main": "parqet-bare-metal.darwin-universal.node",
   "files": [
-    "parqet-rust.darwin-universal.node"
+    "parqet-bare-metal.darwin-universal.node"
   ],
-  "description": "cool fns that are way faster than js",
+  "description": "hard metal stuff",
   "license": "MIT",
   "engines": {
     "node": ">= 10"
   },
-  "repository": "https://github.com/tresorone/parqet-rust"
+  "repository": "https://github.com/tresorone/parqet-bare-metal"
 }

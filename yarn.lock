@@ -1518,9 +1518,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"parqet-rust@workspace:.":
+"parqet-bare-metal@workspace:.":
   version: 0.0.0-use.local
-  resolution: "parqet-rust@workspace:."
+  resolution: "parqet-bare-metal@workspace:."
   dependencies:
     "@napi-rs/cli": ^2.16.3
     ava: ^5.1.1

@@ -1,5 +1,5 @@
 {
-  "name": "parqet-rust-linux-arm64-gnu",
+  "name": "parqet-bare-metal-linux-arm64-gnu",
   "version": "0.0.2",
   "os": [
     "linux"
@@ -7,16 +7,16 @@
   "cpu": [
     "arm64"
   ],
-  "main": "parqet-rust.linux-arm64-gnu.node",
+  "main": "parqet-bare-metal.linux-arm64-gnu.node",
   "files": [
-    "parqet-rust.linux-arm64-gnu.node"
+    "parqet-bare-metal.linux-arm64-gnu.node"
   ],
-  "description": "cool fns that are way faster than js",
+  "description": "hard metal stuff",
   "license": "MIT",
   "engines": {
     "node": ">= 10"
   },
-  "repository": "https://github.com/tresorone/parqet-rust",
+  "repository": "https://github.com/tresorone/parqet-bare-metal",
   "libc": [
     "glibc"
   ]

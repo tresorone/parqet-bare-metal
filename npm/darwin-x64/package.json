@@ -1,5 +1,5 @@
 {
-  "name": "parqet-rust-darwin-x64",
+  "name": "parqet-bare-metal-darwin-x64",
   "version": "0.0.2",
   "os": [
     "darwin"
@@ -7,14 +7,14 @@
   "cpu": [
     "x64"
   ],
-  "main": "parqet-rust.darwin-x64.node",
+  "main": "parqet-bare-metal.darwin-x64.node",
   "files": [
-    "parqet-rust.darwin-x64.node"
+    "parqet-bare-metal.darwin-x64.node"
   ],
-  "description": "cool fns that are way faster than js",
+  "description": "hard metal stuff",
   "license": "MIT",
   "engines": {
     "node": ">= 10"
   },
-  "repository": "https://github.com/tresorone/parqet-rust"
+  "repository": "https://github.com/tresorone/parqet-bare-metal"
 }

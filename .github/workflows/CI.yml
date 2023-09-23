@@ -1,7 +1,7 @@
 name: CI
 env:
   DEBUG: napi:*
-  APP_NAME: parqet-rust
+  APP_NAME: parqet-bare-metal
   MACOSX_DEPLOYMENT_TARGET: '10.13'
 permissions:
   contents: write

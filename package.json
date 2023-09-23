@@ -1,10 +1,10 @@
 {
-  "name": "parqet-rust",
+  "name": "parqet-bare-metal",
   "version": "0.0.2",
   "main": "index.js",
   "types": "index.d.ts",
   "napi": {
-    "name": "parqet-rust",
+    "name": "parqet-bare-metal",
     "triples": {
       "defaults": false,
       "additional": [
@@ -36,6 +36,6 @@
     "version": "napi version"
   },
   "packageManager": "yarn@3.6.3",
-  "repository": "https://github.com/tresorone/parqet-rust",
-  "description": "cool fns that are way faster than js"
+  "repository": "https://github.com/tresorone/parqet-bare-metal",
+  "description": "hard metal stuff"
 }
