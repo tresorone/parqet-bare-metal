@@ -1,6 +1,6 @@
 {
   "name": "parqet-rust",
-  "version": "2.0.0",
+  "version": "1.0.0",
   "description": "Expensive functions used in the parqet backend, outsourced to Rust",
   "main": "index.js",
   "repository": "https://github.com/tresorone/parqet-rust",
